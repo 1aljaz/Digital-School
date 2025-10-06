@@ -1,19 +1,11 @@
 #V tej nalogi boš sestavil igro, kjer računalnik zmeša črke neke besede in ti moraš uganiti, katera beseda je bila uporabljena.
-
 #S tem se naučiš:
-
 #Uporabe funkcij
-
 #Dela s seznami in nizi
-
 #Dela z zankami (for, while)
-
 #Uporabe vhodov (input) in izhodov (print)
-
 #Uporabe modula random
-
 # Navodila:
-
 #V kodo bomo vstavili manjkajoče dele.Testirali bomo igro z več besedami. Na koncu boš igro lahko izboljšal s svojimi besedami ali dodal točkovanje.
 
 
@@ -31,8 +23,6 @@ def izberi_besedo(seznam_besed):
 def igra_scramble(st_besed, poskusi_na_besedo):
     pravilno = 0
     for i in range(st_besed):
-        izbrana = izberi_besedo(besede)
-        zmesana = scramble_besedo(izbrana)
         print(f"Krog {i+1} od {st_besed}")
         print("Zmesana beseda:", zmesana)
 
@@ -53,7 +43,4 @@ def igra_scramble(st_besed, poskusi_na_besedo):
         print()  # prazna vrstica za boljši pogled
 
     print(f"Igra končana. Pravilno si uganil {pravilno} od {st_besed} besed.")
-
-# Zaženi igro
-igra_scramble(5, 3)
 
