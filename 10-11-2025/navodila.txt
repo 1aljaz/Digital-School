@@ -1,0 +1,8 @@
+Najprej naložite potrebno knjižnico z: pip install pyzipper
+Potem zaženete run.py z: python run.py.
+Izberete želeno težavnost. Lahko greste po vrsti.
+
+V mapi hell_maze je polno map, datotek, in datotek, ki jih vi potrebujete.
+Vse želene datoteke so oblike target_file_<n>.txt. V teh datotekah so deli gesl. Morate jih pravilno urediti v naraščajočem vrstnem redu.
+
+Srečno!
