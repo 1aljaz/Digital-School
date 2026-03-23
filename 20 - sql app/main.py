@@ -5,6 +5,7 @@ def ustvari_tabelo():
     Tukaj se poveži na 'knjiznica.db', ustvari kurzor in 
     izvedi ukaz: CREATE TABLE IF NOT EXISTS knjige (...)
     Ne pozabi na commit() in close()!
+    Stolpci: id (integer, primary key), naslov (text), avtor (text), leto (integer)
     """
     pass
 
